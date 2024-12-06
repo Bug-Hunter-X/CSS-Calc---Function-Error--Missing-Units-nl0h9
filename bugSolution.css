@@ -1,0 +1,9 @@
+The correct way to use `calc()` with units:
+
+```css
+width: calc(100% - 10px);
+/* or */
+width: calc(100vw - 1rem);
+```
+
+Always specify the unit (px, em, rem, %, vw, vh, etc.) for all values within the `calc()` function to avoid unexpected results.
